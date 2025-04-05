@@ -1,4 +1,4 @@
-def fizzbuzz(number):
+def fizzbuzz(number: int) -> str:
     """Return 'Fizz', 'Buzz', 'FizzBuzz', or the number as a string based on FizzBuzz rules."""
     if number % 3 == 0 and number % 5 == 0:
         return "FizzBuzz"
